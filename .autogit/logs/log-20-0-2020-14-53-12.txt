@@ -1,0 +1,40 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 20 2020 14:53:12 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/assets/css/style.css
+* resources/views/welcome.blade.php
+
+
+Created files:
+* .autogit/autogit.json
+* .autogit/logs/log-20-0-2020-12-19-34.txt
+* .autogit/logs/log-20-0-2020-12-49-46.txt
+* .autogit/logs/log-20-0-2020-13-19-59.txt
+* .autogit/logs/log-20-0-2020-13-52-47.txt
+* .autogit/logs/log-20-0-2020-14-22-59.txt
+* public/assets/css/style-new.css
+* public/assets/css/style-new.css.map
+* public/assets/images/111.jpeg
+* public/assets/images/1111.jpeg
+* public/assets/images/1112.jpeg
+* public/assets/images/1113.jpeg
+* public/assets/images/1114.jpeg
+* public/assets/images/1115.jpeg
+* public/assets/images/1116.jpeg
+* public/assets/images/1117.jpeg
+* public/assets/images/112.jpeg
+* public/assets/images/113.jpeg
+* public/assets/images/114.jpeg
+* public/assets/images/115.jpeg
+* public/assets/images/116.jpeg
+* public/assets/images/117.jpeg
+* public/assets/sass/.sass-cache/62d27dfc60406ffede463eaee3de76ebd3005e3c/style.scssc
+* public/assets/sass/style.scss
+
+
+Deleted files:
+
+
+Renamed files:

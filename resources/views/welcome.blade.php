@@ -27,11 +27,13 @@
 
     <!-- Css External file-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-new.css" rel="stylesheet">
 
     <!-- JavaScripts core -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
 
     <!-- custom -->
     <script src="assets/js/feature.js"></script>
@@ -51,7 +53,7 @@
             </button>
             <a class="navbar-brand text-logo text-heading" href="http://beebuckapp.com/"><img src='assets/images/beebuck-logo.png' class="logo-image"/></a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto text-sackers text-center">
+                <ul class="nav nav-tabs homepage-nav-bar" role="tablist">
                     <li class="nav-item active">
                         <a class="nav-link active" data-toggle="tab" href="#index">Home</a>
                     </li>
@@ -71,6 +73,7 @@
             </div>
         </div>
     </nav>
+
 </header>
 
 <!-- Begin page content -->
@@ -99,7 +102,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 text-center ">
                             <figure class="match-mask-width">
-                                <img src="assets/images/create-a-profile.jpeg" class="img-fluid rounded" />
+                                <img src="assets/images/1111.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/111.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center pr-md-0 pl-md-4 pl-lg-0">
@@ -112,7 +116,8 @@
                     <div class="row my-md align-items-center">
                         <div class="col-sm-12 col-md-6 text-center order-md-1">
                             <figure class="match-mask-width">
-                                <img src="assets/images/identity.jpeg" class="img-fluid rounded" />
+                                <img src="assets/images/1112.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/112.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
 
@@ -128,7 +133,8 @@
                     <div class="row my-md align-items-center">
                         <div class="col-sm-12 col-md-6 text-center">
                             <figure class="match-mask-width">
-                                <img src="assets/images/build-alliance.jpeg" class="img-fluid rounded" />
+                                <img src="assets/images/1116.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/116.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center pr-md-0 pl-md-4 pl-lg-0">
@@ -153,7 +159,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 text-center order-md-1">
                             <figure class="match-mask-width">
-                                <img src="assets/images/explore.jpg" class="img-fluid rounded" />
+                                <img src="assets/images/1117.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/117.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center">
@@ -173,7 +180,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 text-center order-md-1">
                             <figure class="match-mask-width">
-                                <img src="assets/images/favourite.jpg" class="img-fluid rounded" />
+                                <img src="assets/images/1114.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/114.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center pr-md-4 pr-lg-0">
@@ -211,7 +219,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 text-center order-md-1">
                             <figure class="match-mask-width">
-                                <img src="assets/images/timeline.jpg" class="img-fluid rounded" />
+                                <img src="assets/images/1115.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/115.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center pr-md-4 pr-lg-0">
@@ -235,7 +244,8 @@
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6 text-center order-md-1">
                             <figure class="match-mask-width">
-                                <img src="assets/images/privacy.jpg" class="img-fluid rounded" />
+                                <img src="assets/images/1113.jpeg" class="img-fluid rounded for-large-device" />
+                                <img src="assets/images/113.jpeg" class="img-fluid rounded for-small-device" />
                             </figure>
                         </div>
                         <div class="col-sm-12 col-md-6 align-self-center pr-md-4 pr-lg-0">
@@ -291,7 +301,7 @@
             <div class="row justify-content-around align-items-center contact-background">
                 <div class="col-md-12">
                     <div class="row  justify-content-around ">
-                        <div class="col-md-3">
+                        <div class="col-md-3 px-0">
                             <iframe class="md-height w-100 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.
                             8022235330805!2d100.5582775153574!3d13.7304206903613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f1c55334d3b%3A0xd7220e947849cd9!2sOcean+Tower+1+Building%2C+Khwaeng+Khlong+Toei%2C+Khet+Khlong+Toei%2C+Krung+Thep+Maha+Nakhon+10110%2C+Thailand!5e0!3m2!1sen!2sin!4v1565730194098!5m2!1sen!2sin" allowfullscreen=""></iframe>
                         </div>
@@ -308,13 +318,18 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-sm-12 col-md-6 md-fgrup-margin p-0">
+                                                <div class="col-sm-12 md-fgrup-margin p-0">
                                                     <input class="form-control form-input" id="fullname" type="text" name="fullname" placeholder="Your Name" required="required" aria-required="true">
                                                 </div>
+                                            </div>
+                                            <!-- <div class='row'>
                                                 <div class="col-sm-12 col-md-6 pr-0">
                                                     <input class="form-control form-input" id="phone" type="" name="phone" placeholder="Phone Number" required="required" aria-required="true">
                                                 </div>
-                                            </div>
+                                            </div> -->
+                                        </div>
+                                        <div class='form-group'>
+                                        <input class="form-control form-input" id="phone" type="" name="phone" placeholder="Phone Number" required="required" aria-required="true">
                                         </div>
                                         <div class="form-group">
                                             <input class="form-control form-input" id="email" type="email" name="email" placeholder="Email Address" required="required" aria-required="true">
