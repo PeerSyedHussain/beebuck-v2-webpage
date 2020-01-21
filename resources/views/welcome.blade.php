@@ -27,8 +27,7 @@
 
     <!-- Css External file-->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-new.css" rel="stylesheet">
-
+    
     <!-- JavaScripts core -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
@@ -405,9 +404,10 @@
 </main>
 
 <script>
-    $(".nav-link").click( function () {
-        $(".tab-content").scrollTop()
-    })
+    $(".nav-link").click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+        $('#navbarCollapse').removeClass('show')
+    });
 </script>
 </body>
 </html>
